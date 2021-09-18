@@ -1,19 +1,26 @@
 module.exports = {
   purge: [
-      './public/**/*.php',
+      './public/**/*.html',
   ],
   darkMode: false, // or 'media' or 'class'
   theme: {
-    container: {
-      center: true,
-      padding: "15px"
-    },
-
     extend: {
+      colors: {
+
+        'dark-bg': '#18181B',
+
+        primary: '#E67E22',
+
+      },
+      fontFamily: {
+        greek: 'Greek',
+        augustus: 'Augustus',
+      }
     },
   },
   variants: {
-    extend: {},
+    extend: {
+    },
   },
   plugins: [],
 }

@@ -3,3 +3,13 @@
 @tailwind components;
 
 @tailwind utilities;
+
+
+
+body{
+    @apply bg-dark-bg font-augustus;
+}
+
+.bg-body{
+    @apply bg-contain bg-no-repeat;
+}
